@@ -1,0 +1,32 @@
+1 - Escolha a afirmação correta sobre o código de Huffman para compressão de dados de um arquivo texto.
+a) O código serve para comprimir arquivos de forma similar ao que ocorre em compressão de imagens em que o tamanho do arquivo é bastante reduzido, mas o arquivo original não pode ser recuperado após a compressão.
+
+b) A compressão se dá por meio de um código de número fixo de bits para cada caractere do arquivo
+
+X c) O algoritmo de Huffman gera um código de tamanho variável por meio de um algoritmo guloso que atribui a caracteres de menores frequência os códigos mais longos e, por último, o caractere de maior frequência é o único de comprimento de 1 bit.
+
+d) O algoritmo de Huffman é correto, mas por utilizar um algoritmo guloso não gera necessariamente um código que minimiza o tamanho do arquivo comprimido
+
+
+
+2 - Escolha a afirmações incorretas sobre algoritmos gulosos (pode ter 1 ou mais afirmações incorretas):
+a) O critério guloso é aquele que define como se dá a escolha gulosa do algoritmo
+
+X b) O problema precisa apresentar subestrutura ótima para que um algoritmo guloso possa ser aplicado
+
+c) Mostrar que um problema apresenta propriedade gulosa é equivalente a mostrar que a escolha gulosa está presente em alguma solução ótima
+
+X d) Algoritmos gulosos geralmente são mais ineficientes do que algoritmos de programação dinâmica
+
+e) Algoritmos gulosos geralmente não garantem a solução correta, a não ser que a sua corretude seja demonstrada por meio de propriedades como subestrutura ótima e propriedade gulosa
+
+
+
+3 - Escolha a afirmação incorreta sobre o problema da seleção de atividades para um dado conjunto S de n atividades com intervalos de tempos definidos
+a) Uma subestrutura ótima do problema consiste em resolver o problema de forma ótima por meio do uso de soluções ótimas de subproblemas definidos por subconjuntos Sij de atividades que começam após o término da atividade ai e que terminam antes do início da atividade aj.-
+
+b) A técnica de "cut and paste" para demonstrar a subestrutura ótima consiste em assumir que o problema pudesse ser resolvido de uma forma melhor do que por meio do uso da solução ótima do subproblema e, ao final, mostrar uma contradição -
+
+c) O problema pode ser resolvido por meio de programação dinâmica por meio da memorização de soluções ótimas de subproblemas -
+
+X d) A atividade com o menor tempo de término em um dado subconjunto Sk, contendo atividades que começam a partir do término da atividade ak, está presente em qualquer solução ótima de Sk

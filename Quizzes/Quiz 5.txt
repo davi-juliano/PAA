@@ -1,0 +1,99 @@
+1 - T(n) = T(n - 1) + n *
+a)O (log n)
+
+b)O (n)
+
+c)O (n log n)
+
+X d)O (n²)
+
+e)O (n³)
+
+f)O (2^n)
+
+Solucao:
+T(n) <= c.n^2
+
+T(n) = O(n^2) ==> m = n-1, T(n-1) <= c.(n-1)^2 = c.(n^2 - 2n + 1) ==> T(n) = T(n-1) + n <= c.(n^2 - 2n + 1) + n = c.n^2 - c.2n + c.1 + n = c.n^2 - n.(2c - 1)
+
+para que 2c - 1 > 0 ==> c > 1/2, portanto, T(n) é O(n^2).
+
+
+2 - T(n) = T(n - 1) + lg(n) *
+a)O (log n)
+
+b)O (n)
+
+X c)O (n log n)
+
+d)O (n²)
+
+e)O (n³)
+
+f)O (2^n)
+
+Solucao:
+T(n) <= c.n.lg(n)
+
+T(n) = O(n.lg(n)) ==> m = n-1, T(n-1) <= c.(n-1).lg(n-1) ==> T(n) = T(n-1) + lg(n) <= c.n.lg(n-1) - c.lg(n-1) + lg(n) = c.n.lg(n) - lg(n)(c-1)
+
+Para c > 1, temos que c.n.lg(n) - lg(n)(c-1) <= c.n.lg(n), portanto, T(n) é O(n.lg(n)). 
+
+
+
+3 - T(n) = 3T(n/4) + n *
+a)O (log n)
+
+X b)O (n)
+
+c)O (n log n)
+
+d)O (n²)
+
+e)O (n³)
+
+f)O (2^n)
+
+Solucao:
+Sabemos que a=3 e b=4, e pelo teorema mestre, temos que log_4(3) = 0.79, ou seja, n^0.79 < n^1. Recaindo no caso 3, precisamos da condicao de regularidade:
+
+3(n/4) <= c.n^3 ==> 3/4.n <= c.n^3, para um 1 > c > 3/4. Portanto, pelo Teorema Mestre, T(n) = O(n)
+
+4 - T(n) = T(n - 1) + T(n-2) + 1 *
+a)O (log n)
+
+b)O (n)
+
+c)O (n log n)
+
+d)O (n²)
+
+e)O (n³)
+
+X f)O (2^n)
+
+Solucao:
+Quero provar que T(n) <= c.2^n
+
+T(n) = O(2^n) ==> m_1 = n-1, T(n-1) <= c.2^(n-1) e m_2 = n-2, T(n-2) <= c.2^(n-2), ou seja,
+
+T(n) =  T(n-1) + T(n-2) + 1 <= c.2^(n-1) + c.2^(n-2) + 1 = c.2.2^(n-2) + c.2^(n-2) = c.2^(n-2)(2+1) = c.3.2^(n-2) <= c.4.2^(n-2) = c.2^n, para qualquer c real.
+
+
+5 - T(n) = 4T(n/2) + n³ *
+a)O (log n)
+
+b)O (n)
+
+c)O (n log n)
+
+d)O (n²)
+
+X e)O (n³)
+
+f)O (2^n)
+
+Solucao:
+Sabemos que a=4 e b=2, e pelo teorema mestre, temos que log_2(4) = 2, ou seja, n^2 < n^3. Recaindo no caso 3, precisamos da condicao de regularidade:
+
+4(n/2)^3 <= c.n^3 ==> 4/8.n^3 = 1/2.n^3 <= c.n^3 para 1 > c >= 1/2. Portanto, pelo Teorema Mestre, T(n) = O(n^3).

@@ -1,0 +1,40 @@
+1 - Escolha a afirmativa correta sobre a técnica de backtracking
+a) Algoritmo de backtracking faz uma escolha pelo melhor candidato a cada passo a ser testado como parte da solução parcial
+
+b) Soluções por backtracking não garantem obtenção de solução ótima/correta em problemas de otimização combinatória
+
+X c) Algoritmo de backtracking inclui cada possível candidato a cada passo a ser testado como parte da solução parcial
+
+d) Algoritmos projetados por backtracking geralmente resolvem problemas da forma mais eficiente possível
+
+
+
+2 - Escolha a afirmação incorreta sobre a geração de subconjuntos de um conjunto S com n elementos por backtracking
+a) O algoritmo gera 2^n subconjuntos de S
+
+b) A complexidade de tempo do algoritmo é exponencial em relação a n
+
+c) Uma adaptação do algoritmo pode ser aplicada para resolver o problema da mochila binária
+
+X d) A complexidade de tempo do algoritmo é quadrática em relação a n
+
+
+3 - Seja A um arranjo que armazena as escolhas do algoritmo de backtracking para a solução parcial do problema. Escolha a afirmação incorreta:
+a) A sequência dos elementos de A representa um caminho na árvore de busca que representa o processo de busca do algoritmo
+
+X b) Ao realizar uma poda da busca, o algoritmo de backtracking necessariamente deixa de garantir a obtenção da solução ótima/correta do problema
+
+c) Se o algoritmo encontrar a solução, então A contém a estrutura da solução buscada.
+
+d) Se a profundidade da árvore de busca realizada for muito grande, o armazenamento de variáveis locais como o vetor de candidatos da função recursiva pode levar a um consumo excessivo de memória
+
+
+
+4 - Escolha a afirmação correta sobre a geração de permutações de um conjunto S com n elementos por backtracking
+a) A ordem que as permutações são geradas é única e não pode ser alterada --
+
+b) Complexidade do algoritmo é quadrática --
+
+X c) Candidatos a uma próxima posição no arranjo A de solução parcial são elementos de S ainda não presentes em A
+
+d) Para resolver o problema do Sudoku, a ordem de escolha das posições livres não altera a eficiência da solução--

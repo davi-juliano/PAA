@@ -1,0 +1,45 @@
+1 - Selecione a afirmação incorreta sobre a análise do algoritmo Selection sort
+a)O pior caso do Selection sort tem complexidade em Θ(n²)
+
+X b)O melhor caso do Selection sort tem complexidade O(n)
+
+c)O número de trocas do Selection sort está em Ω(1)
+
+d)Seja f(n) a função que descreve o número total de comparações mais o número de trocas do selection sort para uma entrada com n elementos. Então, f(n)=O(n³).
+(x^2-x+2x)/2  é O(n^3), portanto (x^2+x)/2 <= c*x^3 <=> 1/2 + 1/2x <= c*x, seja x_0 = 1 e c = 1, temos que 1 <= 1.
+Para x_0->infty e c = 1, temos que 1/2 <= infty, ou seja, f(n) é O(n^3)
+
+
+2 - Selecione a afirmação correta sobre a notação O
+a)Uma função de complexidade f(n) pertence a apenas um único conjunto O(g(n)) para algum dado g(n).
+
+X b)Se f(n)=O(g(n)), então 0 ≤ f(n) ≤ cg(n) para algum c>0 e para algum n>0.
+
+c)Se f(n)=O(g(n)), então o limite de f(n)/g(n) quando n→∞ é 0.
+
+d)Seja f(n) uma função de complexidade que descreve o custo de um dado algoritmo para uma entrada de tamanho n. Para n grande o suficiente, O(f(n)) descreve um limite superior para o custo do algoritmo.
+
+
+
+3 - Selecione a afirmação incorreta sobre análise assintótica de algoritmos
+a)É utilizada para se analisar o custo em termos do tempo de execução de algoritmos
+
+b)Pode ser usada para determinar algum limite superior para o custo de um dado algoritmo
+
+c)Utiliza alguma função de complexidade que descreve o custo do algoritmo
+
+X d)Análise assintótica de um algoritmo determina que um algoritmo de maior complexidade de tempo é sempre mais ineficiente do que um algoritmo de menor complexidade de tempo
+
+
+
+4 - Selecione a afirmação incorreta sobre notações assintóticas
+a)Se f(n) está em O(g(n)), então g(n) não pode estar em Ω(f(n))
+(x^2-x)/2 => O(n^2) => x^2 >= c*(x^2-x)/2 => 1 >= c*(1/2 - 1/2x), então pode estar para c e x especificos.
+
+b)Se f(n)=O(g(n)) e g(n)=O(h(n)), então f(n)=O(h(n))
+
+c)Se f(n)=Θ(g(n)), então f(n)=O(g(n)) e f(n)=Ω(g(n))
+
+X d)Se f(n) está em o(g(n)), então g(n) não pode estar em ω(f(n))
+
+|f(x)| <= c2|g(x)|

@@ -1,0 +1,41 @@
+1 - Escolha a alternativa correta sobre o problema apresentado do tour de robô otimizado.
+a)O algoritmo do vizinho mais próximo (nearest-neighbor) é uma solução eficiente e correta do problema
+
+b)Esse problema pode ser resolvido por meio da aplicação de algoritmos de caminho mínimo, como o algoritmo de Dijkstra.
+
+c)Esse problema não possui solução algorítmica correta conhecida
+
+X d)Esse problema não possui solução algorítmica eficiente conhecida
+
+
+
+2-Escolha a afirmação verdadeira sobre análise de algoritmo por meio do modelo RAM (computador idealizado):
+a)A análise depende da capacidade de processamento do computador
+
+b)Uma operação de multiplicação tem um custo maior do que uma operação de atribuição
+
+X c)A quantidade de operações mais significativas realizadas pelo algoritmo é um fator relevante nessa análise
+
+d)A linguagem de programação é relevante nessa análise
+
+
+
+3 - Escolha a afirmação incorreta sobre função de complexidade
+a)Uma função de complexidade f(n) pode medir o custo de espaço de um algoritmo
+
+X b)Seja f(n) a função de complexidade definida como o número de comparações que um algoritmo X realiza para um entrada de tamanho n, então f(n) possui apenas uma única forma para X
+
+c)Uma função de complexidade f(n) pode medir o custo de tempo de um algoritmo
+
+d)Uma função de complexidade f(n) pode medir o número de comparações de um algoritmo
+
+
+
+4 - Escolha a afirmação incorreta sobre a análise do algoritmo Selection Sort
+a)Cada passo do algoritmo corresponde a um subproblema que consiste em buscar pela posição do elemento de menor valor em um subvetor
+
+b)Quantidade de execuções de linhas no interior de laços pode ser definida por meio do uso de somatório.
+
+X c)O selection sort apresenta um número menor de comparações se o vetor já estiver ordenado
+
+d)A operação de comparação é um fator mais relevante para determinar o custo do tempo de execução do algoritmo Selection Sort do que a operação de troca.

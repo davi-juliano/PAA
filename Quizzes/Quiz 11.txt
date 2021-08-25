@@ -1,0 +1,47 @@
+1 - Seja o problema Longest Increasing Subsequence (LIS) com uma sequência S de entrada e o problema Longest Common Subsequence (LCS) com sequências S e T de entrada. Escolha a afirmação incorreta sobre a redução de LIS em LCS:
+a) A sequência S de LIS é a mesma sequência S do LCS
+
+b) T é uma sequência que contém os elementos distintos de S em ordem crescente
+
+c) A redução estando correta, uma sequência X é um LIS de S se e somente se X é um LCS de S e T
+
+X d) A redução permite resolvermos o LIS em tempo mais eficiente ainda do que a solução conhecida por programação dinâmica do problema LIS
+
+
+
+
+2 - Escolha as afirmações incorretas sobre classes de problemas
+a) P é uma classe de problemas de complexidade polinomial -
+
+b) NP é uma classe de problemas de complexidade não-polinomial - 
+
+X c) Verificar uma possível solução de um problema NP é fácil (tempo polinomial)
+
+d) NP-completo está incluso em NP-difícil - 
+
+X e) NP está incluso em NP-difícil
+
+
+
+
+
+3 - Escolha a afirmação incorreta sobre problemas de decisão
+X a) São problemas de menor complexidade assintótica do que o problema de otimização associado
+
+b) Possuem dois possíveis valores de saída: verdadeiro/falso - 
+
+c) O tipo simplificado da saída permite reduções entre problemas de decisão que não necessitam de transformação das soluções
+
+d) NP-completo é uma classe específica de problemas de decisão - 
+
+
+
+
+4 - Escolha a afirmação incorreta sobre as aplicações de redução de um problema A em um problema B.
+a) Se a redução é em tempo polinomial e o problema A é de complexidade exponencial, então B também tem complexidade exponencial
+
+b) Descreve uma forma de resolver o problema A usando um algoritmo que resolve B
+
+X c) Fornece um limite superior do problema B baseado no limite superior do problema A
+
+d) Fornece um limite inferior do problema B baseado no limite inferior do problema A

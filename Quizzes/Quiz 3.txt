@@ -1,0 +1,44 @@
+1 - O que é um invariante de laço?
+a)Um laço que não varia
+
+b)Uma variável de um laço
+
+X c)Uma propriedade de um laço
+
+d)Um algoritmo correto
+
+
+
+2 - Qual é o invariante do laço externo no insertion sort associado à sua corretude?
+a)Antes da interação o elemento da posição atual é maior do que elemento à sua esquerda
+
+b)Antes da interação o elemento da posição atual é menor do que elemento à sua esquerda
+
+X c)Antes de uma interação, A[1..j-1] contém os elementos originalmente em A[1..j-1], mas de forma ordenada
+
+d)Após uma interação, A[1..j-1] contém os elementos de forma ordenada
+
+
+3 - Selecione as afirmações incorretas sobre a relação entre recursividade, indução e invariante de laço
+a)Caso base da indução equivale a uma condição de parada de um algoritmo recursivo
+
+b)Caso base da indução é equivalente ao passo de inicialização de um invariante de laço
+
+X c)Aplicação de hipótese indutiva equivale ao caso geral da recursão
+
+X d)Manutenção de um invariante de laço é equivalente ao passo de indução
+
+X e)Terminação de um invariante de laço é similar à hipótese de indução
+
+f)Chamada recursiva é similar a uma hipótese de indução
+
+
+
+4 - Selecione a afirmação correta sobre corretude de algoritmos.
+a)Algoritmos recursivos são mais eficientes.
+
+b)Algoritmos recursivos são sempre corretos.
+
+X c)A aplicação da indução para mostrar corretude de um algoritmo segue a estrutura lógica recursiva do algoritmo.
+
+d)Indução não pode ser aplicado a algoritmos iterativos.

@@ -1,0 +1,41 @@
+1 - Escolha a afirmação incorreta sobre o algoritmo de programação dinâmica que resolve o problema do corte de barras
+a) Para cada barra de tamanho de n, deve-se testar um primeiro corte em todas possíveis posições-
+
+b) Cada possibilidade de corte testada na solução é comparada com as outras possibilidades de forma a se encontrar o que leva ao melhor resultado -
+
+c) A memorização pode incluir também, além dos resultados, as decisões tomadas pelo algoritmo para se obter a solução ótima de forma a permitir a identificação dos tamanhos das barras geradas na solução ótima -
+
+X d) A solução por programação dinâmica que resolve o problema possui complexidade de tempo linear
+
+
+
+2 - Escolha a afirmação incorreta sobre o problema do corte de barras
+a) O problema apresenta subestrutura ótima -
+
+X b) A solução recursiva sem memorização possui complexidade de tempo polinomial
+
+c) Ao se dividir a barra de tamanho n em uma posição i, cada barra gerada pode ser dividida conforme solução do subproblema de tamanho i ou n-i -
+
+d) Soluções ótimas de subproblemas são utilizadas para se calcular a solução ótima do problema -
+
+
+
+3 - Escolha a afirmação incorreta sobre uma solução por programação dinâmica
+a) A solução pode ser na forma recursiva (top-down) -
+
+b) A solução pode ser na forma iterativa (bottom-up) -
+
+c) Resultados ótimos de subproblemas são armazenados por meio de memorização -
+
+X d) A complexidade da solução de programação dinâmica sempre é ótima
+
+
+
+4 - Escolha a opção que não apresenta uma característica de programação dinâmica
+X a) Uma solução por programação dinâmica não garante solução ótima de problemas
+
+b) Resolve problemas que possuem subestrutura ótima - 
+
+c) Resolve problemas que possuem sobreposição de subproblemas - 
+
+d) Uma solução por programação dinâmica busca soluções ótimas para problemas de otimização

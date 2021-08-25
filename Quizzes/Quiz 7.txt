@@ -1,0 +1,38 @@
+1 - Escolha a afirmação incorreta sobre o problema de subgrafos induzidos maximais
+a) A solução apresentada aplica remoção de qualquer nó que não satisfaz o requisito do problema e aplica a hipótese no subgrafo induzido
+
+X b) É necessário escolher a ordem na qual os vértices com grau < k são removidos
+
+c) O caso base representa um grafo completo com k+1 vértices
+
+d) Se todos os vértices possuírem grau >= k, então o grafo inteiro é solução
+
+
+2 - Escolha a afirmação correta sobre o problema do subarranjo máximo de um arranjo de tamanho n
+a) É possível estender um subarranjo máximo de um subproblema de tamanho n-1 para se obter o subaranjo máximo para o problema em tempo constante
+
+b) Ao acrescentar o cálculo do sufixo máximo do subproblema na hipótese, aumenta-se o custo assintótico da solução para se atualizar a solução do sufixo máximo
+
+X c) A solução do sufixo máximo do subproblema nos permite encontrar a solução (subarranjo máximo) do problema entre um sufixo máximo e o subarranjo máximo do subproblema
+
+d) O custo da solução ao problema obtido por meio da hipótese indutiva mais forte é T(n)=T(n-1)+O(n), portanto solução é quadrática
+
+
+3 - Escolha a afirmação incorreta sobre o problema de cálculo de polinômios
+a) Primeira solução é ineficiente em resolver cada um dos termos x^n em tempo linear
+
+b) Segunda solução reforça a hipótese indutiva incluindo o cálculo de x^(n-1)
+
+X c) A chamada recursiva da segunda solução pode retornar os valores de P(n-1) e x^(n-1) por meio de um tipo struct
+
+d) A terceira solução incluiu o argumento i porque a dimensão do problema aumentou em relação às primeiras soluções
+
+
+4 - Escolha a afirmação correta sobre o cálculo de fatores de balanceamento em árvores binárias
+a) É possível calcular o fator de balanceamento de um nó a partir dos fatores de balanceamento das suas subárvores
+
+b) Para calcular os fatores de balanceamento de todos os nós, é preciso calcular a altura para cada nó, o que leva a uma solução com tempo exponencial
+
+X c) A hipótese pode ser reforçada de forma a retornar a altura junto ao fator de balancemaneto dos filhos, o que permite calcular ambos os valores para o pai
+
+d) Por aplicar a hipótese 2 vezes, temos uma recorrência T(n) = 2T(n-1) + O(1), portanto a solução é exponencial

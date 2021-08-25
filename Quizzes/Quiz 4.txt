@@ -1,0 +1,54 @@
+1 - Qual recorrência melhor descreve a forma geral para o custo do algoritmo Merge Sort? *
+a) T(n) = T(n-1) + O(n)
+
+b) T(n) = T(n/2) + Ω(n)
+
+c) T(n) = 2T(n/2) + Θ(lgn)
+
+X d) T(n) = 2T(n/2) + O(n)
+
+
+
+2 - Para a seguinte solução por força bruta para o problema do subarranjo máximo: "Para cada possível subarranjo de um arranjo de tamanho n, obter a soma do subarranjo somando os valores de cada um de seus elementos. Retornar a soma máxima obtida entre todos subarranjos. ". Qual a complexidade desta solução? *
+X a) O(n²)
+
+b) Ω(n²)
+
+c) Θ(n lgn)
+
+d) O(n)
+
+
+
+3 - O que a fase conquistar da técnica de divisão e conquista faz? *
+a)Combina as soluções de subproblemas
+
+b)Divide um problema em subproblemas menores
+
+c)Ordena os subproblemas para facilitar a obtenção de souções
+
+X d)Aplica recursividade para resolver subproblemas de um dado problema
+
+
+
+4 - Qual recorrência melhor descreve o custo do tempo de execução do algoritmo recursivo do insertion sort visto na semana 1?
+a) T(n) = 2T(n/2) + O(lgn)
+
+b) T(n) = T(n) + O(n-1)
+
+c) T(n) = T(n-1) + O(n²)
+
+X d) T(n) = T(n-1) + O(n)
+
+
+
+5 - Seja a a recorrência vista para o cálculo do fatorial, T(n) = T(n-1) + O(1). Qual a complexidade desta recorrência? 
+X a) O(n)
+
+b) Θ(lgn)
+
+c) Ω(n²)
+
+d) Θ(2^n)
+
+

@@ -1,0 +1,41 @@
+1 - Selecione a afirmação correta sobre o conteúdo de ordenação abordado:
+a) O algoritmo recursivo do algoritmo de seleção é mais eficiente do que a versão iterativa
+
+b) O Selection Sort realiza a busca do elemento de valor mínimo no subvetor de tamanho n em tempo O(lgn)
+
+c) O Selection sort realiza O(n) comparações
+
+X d) O Heapsort resolve o problema de ordenação com aplicação de hipótese indutiva similar ao Selection sort, mas usa um max-heap para otimizar a busca pelo elemento de maior valor.
+
+
+
+2 - Selecione a afirmação incorreta sobre o conteúdo de ordenação abordado:
+a) O pior caso da função max-heapfy possui recorrência T(n)=T(2n/3) + Θ(1)
+
+b) A função max-heapfy assume que as subárvores esquerda e direita da raiz são max-heap
+
+X c) A função Build-Max-Heap possui complexidade de tempo Θ(nlgn)
+
+d) A altura de um max-heap com n elementos é de floor(logn)
+
+
+
+3 - Selecione a afirmação incorreta sobre o conteúdo de ordenação abordado:
+a) A função que extrai o elemento de maior valor do max-heap possui complexidade Θ(lgn)
+
+b) A inserção de um novo elemento em um max-heap pode ser realizado em tempo Θ(lgn)
+
+c) A hipótese de indução do Quicksort é forte devido à possibilidade de ser aplicada para subproblemas de qualquer tamanho 0<=k<n.
+
+X d) O pior caso do Quicksort é quadrático devido a custo quadrático da função Partition
+
+
+
+4 - Selecione a afirmação incorreta sobre o conteúdo de ordenação abordado:
+X a) O invariante da função Partition envolve os índices i e j que delimitam os subvetores com os elementos já particionados
+
+b) O custo quadrático do Quicksort é inevitável sempre que a entrada já se encontra ordenada
+
+c) No caso médio, o Quicksort executa em tempo O(nlgn) mesmo quando Partition não particiona o vetor sempre ao meio
+
+d) A técnica de árvore de recursão pode ser aplicada mesmo quando os caminhos da raiz até as folhas da árvore apresentam comprimentos diferentes

@@ -1,0 +1,31 @@
+#include <string.h>
+#include <stdio.h>
+
+int main(){
+    int i, soma=0, x, y, numaux=0, j=0, k;
+    int vector[800];
+    
+    scanf("%d %d", &x, &y);
+    
+    for(i=x;i<=y;i++){
+        numaux=i;
+        j=0;
+        while(numaux>0){
+            vector[j] = (numaux%2);
+            numaux = numaux/2;
+            j++;
+        }
+        
+        while(j>0){
+            if(vector[j]==1){
+                soma++;
+                //printf("%d", soma);
+            }
+            j--;
+        }
+    }
+
+
+    printf("%d", soma);
+
+    return 0;
